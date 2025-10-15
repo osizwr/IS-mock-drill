@@ -1,0 +1,29 @@
+C:\Users\ACER\Desktop\MockDrill\obj\Debug\net7.0\MockDrill.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\MockDrill\obj\Debug\net7.0\MockDrill.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\MockDrill\obj\Debug\net7.0\MockDrill.AssemblyInfo.cs
+C:\Users\ACER\Desktop\MockDrill\obj\Debug\net7.0\MockDrill.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\MockDrill\bin\Debug\net7.0\MockDrill.exe
+C:\Users\ACER\Desktop\MockDrill\bin\Debug\net7.0\MockDrill.deps.json
+C:\Users\ACER\Desktop\MockDrill\bin\Debug\net7.0\MockDrill.runtimeconfig.json
+C:\Users\ACER\Desktop\MockDrill\bin\Debug\net7.0\MockDrill.dll
+C:\Users\ACER\Desktop\MockDrill\bin\Debug\net7.0\MockDrill.pdb
+C:\Users\ACER\Desktop\MockDrill\obj\Debug\net7.0\MockDrill.dll
+C:\Users\ACER\Desktop\MockDrill\obj\Debug\net7.0\refint\MockDrill.dll
+C:\Users\ACER\Desktop\MockDrill\obj\Debug\net7.0\MockDrill.pdb
+C:\Users\ACER\Desktop\MockDrill\obj\Debug\net7.0\MockDrill.genruntimeconfig.cache
+C:\Users\ACER\Desktop\MockDrill\obj\Debug\net7.0\ref\MockDrill.dll
+G:\GITHUB THINGS\MockDrill\MockDrill\bin\Debug\net7.0\MockDrill.exe
+G:\GITHUB THINGS\MockDrill\MockDrill\bin\Debug\net7.0\MockDrill.deps.json
+G:\GITHUB THINGS\MockDrill\MockDrill\bin\Debug\net7.0\MockDrill.runtimeconfig.json
+G:\GITHUB THINGS\MockDrill\MockDrill\bin\Debug\net7.0\MockDrill.dll
+G:\GITHUB THINGS\MockDrill\MockDrill\bin\Debug\net7.0\MockDrill.pdb
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\MockDrill.GeneratedMSBuildEditorConfig.editorconfig
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\MockDrill.AssemblyInfoInputs.cache
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\MockDrill.AssemblyInfo.cs
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\MockDrill.csproj.CoreCompileInputs.cache
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\MockDrill.sourcelink.json
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\MockDrill.dll
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\refint\MockDrill.dll
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\MockDrill.pdb
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\MockDrill.genruntimeconfig.cache
+G:\GITHUB THINGS\MockDrill\MockDrill\obj\Debug\net7.0\ref\MockDrill.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cce67IaQls9jRKnAytcFi53qGffBslcQk3UzE23coRQvHW8EEAZlaVpRLNFSn8WFbRxeyAghgQi1zfn4hgYbHg==",
+  "success": true,
+  "projectFilePath": "G:\\GITHUB THINGS\\MockDrill\\MockDrill\\MockDrill.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\upris\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\upris\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\upris\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\upris\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
