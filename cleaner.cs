@@ -139,98 +139,6 @@ namespace RobotCleaner
     }
   }
 
-public class SpiralStrategy : IStrategy
-{
-    public void Clean(Robot robot)
-    {
-        Console.WriteLine("Spiral strategy start cleaning...");
-
-        int centerX = robot.Map.Width / 2;
-        int centerY = robot.Map.Height / 2;
-
-        // Start from center
-        robot.Move(centerX, centerY);
-        robot.CleanCurrentSpot();
-
-        int[,] directions = new int[,]
-        {
-            { 1, 0 },   // right
-            { 0, 1 },   // down
-            { -1, 0 },  // left
-            { 0, -1 }   // up
-        };
-
-        int directionIndex = 0;
-        int segmentLength = 1;
-        int stepsTaken = 0;
-        int turnsMade = 0;
-        int stuckCounter = 0;
-
-        while (true)
-        {
-            // Check if all tiles cleaned
-            if (robot.Map.AllCleaned())
-            {
-                Console.WriteLine("All spots cleaned.");
-                break;
-            }
-
-            int dx = directions[directionIndex, 0];
-            int dy = directions[directionIndex, 1];
-
-            int newX = robot.X + dx;
-            int newY = robot.Y + dy;
-
-            // Check if new position is valid
-            if (robot.Map.IsInBounds(newX, newY) && !robot.Map.IsObstacle(newX, newY))
-            {
-                robot.Move(newX, newY);
-                if (!robot.Map.IsCleaned(newX, newY))
-                    robot.CleanCurrentSpot();
-
-                stepsTaken++;
-                stuckCounter = 0; // reset
-            }
-            else
-            {
-                // rotate to next direction
-                directionIndex = (directionIndex + 1) % 4;
-                stuckCounter++;
-
-                // If all directions failed (4 turns), robot is fully blocked
-                if (stuckCounter >= 4)
-                {
-                    Console.WriteLine("Robot fully blocked. Cannot move further.");
-                    break;
-                }
-                continue;
-            }
-
-            // Once segment completed, turn
-            if (stepsTaken >= segmentLength)
-            {
-                directionIndex = (directionIndex + 1) % 4;
-                stepsTaken = 0;
-                turnsMade++;
-                stuckCounter = 0;
-
-                // After every two turns, spiral expands
-                if (turnsMade % 2 == 0)
-                    segmentLength++;
-            }
-
-            // Safety stop: if the spiral exceeds map bounds
-            if (segmentLength > robot.Map.Width && segmentLength > robot.Map.Height)
-            {
-                Console.WriteLine("Reached spiral boundary limit.");
-                break;
-            }
-        }
-
-        Console.WriteLine("Spiral Strategy finished cleaning.");
-    }
-}
-
   public class Robot
   {
     private readonly Map _map;
@@ -319,7 +227,7 @@ public class SpiralStrategy : IStrategy
       map.AddObstacle(12,1);
       map.Display(11,8);
 
-      Robot robot = new Robot(map,spiralstrategy);
+      Robot robot = new Robot(map,perimeterstrategy);
 
       robot.StartCleaning();
 
